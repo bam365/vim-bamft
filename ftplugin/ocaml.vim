@@ -7,5 +7,5 @@ set tabstop=4
 "nmap <buffer> <Leader>md :MerlinDocument<CR>
 "nmap <buffer> <Leader>me :MerlinErrorCheck<CR>
 "
-nmap <buffer> <Leader>mt :LanguageClient_textDocument_hover()<cr>
-nmap <buffer> <Leader>mg :LanguageClient_textDocument_definition()<cr>
+nmap <buffer> <Leader>mt :call LanguageClient_textDocument_hover()<cr>
+nmap <buffer> <Leader>mg :call LanguageClient_textDocument_definition()<cr>
